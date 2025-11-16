@@ -1,14 +1,17 @@
 import Head from 'next/head';
 import Hero from '../components/Hero';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <>
+    <> 
       <Head>
         <title>Manas Technologies</title>
         <meta name="description" content="We build modern digital products." />
       </Head>
 
+      <Navbar />
       <main className="min-h-screen bg-gray-50">
         <Hero />
         <section id="services" className="max-w-6xl mx-auto px-6 py-20">
@@ -20,6 +23,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }
