@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manas Technologies – Government approved EPC contractor for Electrical, Solar, Automation, Substation and Power Plant solutions across India">
+    <meta name="keywords" content="EPC solutions, electrical contractors, solar power plants, home automation, industrial automation, Maharashtra, solar EPC, electrical EPC">
+    <meta property="og:title" content="Manas Technologies | EPC Solutions">
+    <meta property="og:description" content="Government approved EPC contractor for Electrical, Solar, and Automation solutions">
+    <meta property="og:image" content="assets/images/manas-logo.png">
+    <title>Manas Technologies | Leading Imagination to Reality</title>
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;800;900&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<!-- Header -->
+<header id="header">
+    <div class="container nav-container">
+        <a href="index.html" class="logo">
+            <div class="logo-container">
+                <img src="assets/images/manas-logo.png" alt="Manas Technologies" class="logo-img">
+            </div>
+            <div class="logo-text">
+                <span>MANAS TECHNOLOGIES</span>
+                <span>Leading Imagination to Reality...</span>
+            </div>
+        </a>
+        <button class="mobile-menu-btn" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#services">Services <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="pages/electrical.html"><i class="fas fa-bolt"></i> Electrical EPC</a></li>
+                    <li><a href="pages/automation.html"><i class="fas fa-home"></i> Home Automation</a></li>
+                    <li><a href="pages/solar.html"><i class="fas fa-solar-panel"></i> Solar Power Plants</a></li>
+                </ul>
+            </li>
+            <li><a href="#why">Why Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-slider">
+        <div class="slide active">
+            <div class="slide-bg" style="background-image:url('assets/images/hero-electrical.jpg')"></div>
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h1>Electrical EPC</h1>
+                    <p>Design, execution & commissioning</p>
+                    <a href="pages/electrical.html" class="btn">GOVT. Authorised Electrical Contractor</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-bg" style="background-image:url('assets/images/hero-automation.jpg')"></div>
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h1>Home Automation</h1>
+                    <p>Smart living & premium automation solutions</p>
+                    <a href="pages/automation.html" class="btn">A truly Wireless Ambiance Automation System</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-bg" style="background-image:url('assets/images/hero-solar.jpg')"></div>
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h1>Solar Power Plants</h1>
+                    <p>Utility scale & rooftop EPC</p>
+                    <a href="pages/solar.html" class="btn">Govt. Approved solar empanelled Vendor</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-controls">
+            <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="reveal">
+    <div class="container">
+        <h2>Our Core Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-solar-panel"></i></div>
+                <div class="service-content">
+                    <h3>Solar EPC</h3>
+                    <ul class="service-features">
+                        <li>Rooftop & Utility Scale Plants</li>
+                        <li>Design, Engineering & Execution</li>
+                        <li>Net Metering & Grid Synchronization</li>
+                        <li>Operation & Maintenance</li>
+                    </ul>
+                    <a href="pages/solar.html" class="btn btn-small">Learn More</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-bolt"></i></div>
+                <div class="service-content">
+                    <h3>Electrical EPC</h3>
+                    <ul class="service-features">
+                        <li>HT/LT Panels & Cabling</li>
+                        <li>Substations & Transformers</li>
+                        <li>Testing & Commissioning</li>
+                        <li>Industrial Electrical Works</li>
+                    </ul>
+                    <a href="pages/electrical.html" class="btn btn-small">Learn More</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-house"></i></div>
+                <div class="service-content">
+                    <h3>Home & Building Automation</h3>
+                    <ul class="service-features">
+                        <li>Lighting & Curtain Automation</li>
+                        <li>Security & Access Control</li>
+                        <li>Energy Monitoring</li>
+                        <li>Smart IoT Integration</li>
+                    </ul>
+                    <a href="pages/automation.html" class="btn btn-small">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us -->
+<section id="why" class="reveal">
+    <div class="container">
+        <h2>Why Choose Manas Technologies</h2>
+        <div class="why-grid">
+            <div class="why-card">
+                <div class="why-icon"><i class="fas fa-award"></i></div>
+                <h3>Experienced EPC Team</h3>
+                <p>Years of experience in executing reliable electrical, solar and automation projects.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon"><i class="fas fa-check-circle"></i></div>
+                <h3>Quality & Safety</h3>
+                <p>Strict adherence to standards, safety norms and best engineering practices.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon"><i class="fas fa-clock"></i></div>
+                <h3>On-Time Delivery</h3>
+                <p>Planned execution ensuring projects are delivered on schedule.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon"><i class="fas fa-headset"></i></div>
+                <h3>End-to-End Support</h3>
+                <p>From consultation and design to commissioning and maintenance.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="reveal">
+    <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>
+                        <h4>Office Address</h4>
+                        <p>Pune, Nashik, Karad Maharashtra, India</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 9320685511</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@manastechnologies.com</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required id="name">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required id="email">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Phone Number" id="phone">
+                </div>
+                <div class="form-group">
+                    <textarea rows="4" placeholder="Your Message" id="message" required></textarea>
+                </div>
+                <button type="submit" class="btn" id="submitBtn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+ <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo-container">
+                        <img src="assets/images/manas-logo.png" alt="Manas Technologies" class="footer-logo">
+                    </div>
+                    <div class="footer-brand-name">MANAS TECHNOLOGIES</div>
+                    <p class="footer-tagline">Leading Imagination to Reality...</p>
+                    <p class="footer-desc">
+                        Government approved EPC contractor delivering Electrical, Solar, Automation, Substation and Power Plant solutions across India.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#why">Why Choose Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="pages/electrical.html">Electrical EPC</a></li>
+                        <li><a href="pages/solar.html">Solar Power</a></li>
+                        <li><a href="pages/automation.html">Home Automation</a></li>
+                        <li><a href="pages/electrical.html">Industrial Automation</a></li>
+                        <li><a href="pages/electrical.html">Substation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i><span>Pune, Nashik & Karad, Maharashtra</span></li>
+                        <li><i class="fas fa-phone"></i><a href="tel:+919320685511">+91 9320685511</a></li>
+                        <li><i class="fas fa-envelope"></i><a href="mailto:info@manastechnologies.com">info@manastechnologies.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Manas Technologies. All Rights Reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="footer-cert">Government Approved Electrical Contractor | Govt. Solar Empanelled Vendor | MSME Registered</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
